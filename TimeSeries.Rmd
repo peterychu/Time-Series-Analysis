@@ -342,7 +342,7 @@ kable(df)
 
 ```
 
-For our first model we can see that the residuals appear to be White Noise, are normal, and are within the confidence interval on the ACF graph. We can also see that for all of our Box-Piece and Ljung-Box tests that p > 0.05. Also our Yule-Walker selected order is 0. Therefore the residuals of Model 1 pass all diagnostic checks and we can continue to use it for forecasting / predicting. In addition, the model is stationary, but not invertible as $\Phi2 = 1$
+For our first model we can see that the residuals appear to be White Noise, are normal, and are within the confidence interval on the ACF graph. We can also see that for all of our Box-Piece and Ljung-Box tests that p > 0.05. Also our Yule-Walker selected order is 0. Therefore the residuals of Model 1 pass all diagnostic checks and we can continue to use it for forecasting / predicting. In addition, the model is stationary, but not invertible as $\Phi_2 = 1$
 
 For our second model, it is similar to our first model. All the residuals appear to be White Noise, normal and are within the confidence interval for the ACF graph. All the Box-Pierce and Ljung-Box tests passed with p > 0.05. However, our Yule-Walker selected order is 2, not 0. Therefore Model 2 does not pass all diagnostic checks and we can't use it for forecasting. 
 
